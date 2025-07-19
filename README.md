@@ -6,15 +6,6 @@ The repo is a guide to building agents from scratch. It builds up to an ["ambien
 
 ## Environment Setup 
 
-### Python Version
-
-* Ensure you're using Python 3.11 or later. 
-* This version is required for optimal compatibility with LangGraph. 
-
-```shell
-python3 --version
-```
-
 ### API Keys
 
 * If you don't have an OpenAI API key, you can sign up [here](https://openai.com/index/openai-api/).
@@ -35,13 +26,6 @@ LANGSMITH_API_KEY=your_langsmith_api_key
 LANGSMITH_TRACING=true
 LANGSMITH_PROJECT="interrupt-workshop"
 OPENAI_API_KEY=your_openai_api_key
-```
-
-* You can also set the environment variables in your terminal:
-```shell
-export LANGSMITH_API_KEY=your_langsmith_api_key
-export LANGSMITH_TRACING=true
-export OPENAI_API_KEY=your_openai_api_key
 ```
 
 ### Package Installation
